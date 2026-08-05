@@ -1854,6 +1854,46 @@ export const STANDARD_OBJECTS = {
       listMemberships: {
         universalIdentifier: '8b8d1be0-4c94-4413-a2c9-c7ede205a81d',
       },
+      // Salesforce lead import fields (Perfect Ventures)
+      country: {
+        universalIdentifier: 'a1b2c3d4-e5f6-4701-8901-000000000001',
+      },
+      leadId: {
+        universalIdentifier: 'a1b2c3d4-e5f6-4701-8901-000000000002',
+      },
+      lead18Id: {
+        universalIdentifier: 'a1b2c3d4-e5f6-4701-8901-000000000003',
+      },
+      leadSource: {
+        universalIdentifier: 'a1b2c3d4-e5f6-4701-8901-000000000004',
+      },
+      swFitScore: {
+        universalIdentifier: 'a1b2c3d4-e5f6-4701-8901-000000000005',
+      },
+      street: {
+        universalIdentifier: 'a1b2c3d4-e5f6-4701-8901-000000000006',
+      },
+      rating: {
+        universalIdentifier: 'a1b2c3d4-e5f6-4701-8901-000000000007',
+      },
+      leadOwner: {
+        universalIdentifier: 'a1b2c3d4-e5f6-4701-8901-000000000008',
+      },
+      ownerDivision: {
+        universalIdentifier: 'a1b2c3d4-e5f6-4701-8901-000000000009',
+      },
+      roeSubDivision: {
+        universalIdentifier: 'a1b2c3d4-e5f6-4701-8901-00000000000a',
+      },
+      createDate: {
+        universalIdentifier: 'a1b2c3d4-e5f6-4701-8901-00000000000b',
+      },
+      lastActivityDate: {
+        universalIdentifier: 'a1b2c3d4-e5f6-4701-8901-00000000000c',
+      },
+      emailAddressDomainTypeSfdc: {
+        universalIdentifier: 'a1b2c3d4-e5f6-4701-8901-00000000000d',
+      },
     },
     indexes: {
       companyIdIndex: {

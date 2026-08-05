@@ -33,6 +33,20 @@ export class PersonWorkspaceEntity extends BaseWorkspaceEntity {
   position: number;
   createdBy: ActorMetadata;
   updatedBy: ActorMetadata;
+  // Salesforce lead import fields (Perfect Ventures)
+  country: string | null;
+  leadId: string | null;
+  lead18Id: string | null;
+  leadSource: string | null;
+  swFitScore: string | null;
+  street: string | null;
+  rating: string | null;
+  leadOwner: string | null;
+  ownerDivision: string | null;
+  roeSubDivision: string | null;
+  createDate: string | null;
+  lastActivityDate: string | null;
+  emailAddressDomainTypeSfdc: string | null;
   company: EntityRelation<CompanyWorkspaceEntity> | null;
   companyId: string | null;
   pointOfContactForOpportunities: EntityRelation<OpportunityWorkspaceEntity[]>;
